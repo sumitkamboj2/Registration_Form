@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include regi_app *.css
+recursive-include regi_app *.csv
+recursive-include regi_app *.html
+recursive-include regi_app *.ico
+recursive-include regi_app *.js
+recursive-include regi_app *.json
+recursive-include regi_app *.md
+recursive-include regi_app *.png
+recursive-include regi_app *.py
+recursive-include regi_app *.svg
+recursive-include regi_app *.txt
+recursive-exclude regi_app *.pyc
